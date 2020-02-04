@@ -1,0 +1,2 @@
+rospb_pin_write:servo_control:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ROSPB/rospb_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROSPB/rospb_ws/install -G Unix Makefiles
