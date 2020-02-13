@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>rospb_pin_write</name>
+  <version>0.0.0</version>
+  <description>Keyboard teleop for pin control on ROSPB.</description>
+
+  <maintainer email="scottc2789@gmail.com">Scott Cashman</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://www.ecurobotics.com</url>
+
+  <author>Scott Cashman</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+</package>
