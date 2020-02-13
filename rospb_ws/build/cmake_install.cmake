@@ -126,6 +126,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/ROSPB/rospb_ws/build/gtest/cmake_install.cmake")
+  include("/home/ubuntu/ROSPB/rospb_ws/build/rospb_pin_write/cmake_install.cmake")
+  include("/home/ubuntu/ROSPB/rospb_ws/build/teleop_twist_keyboard/cmake_install.cmake")
+  include("/home/ubuntu/ROSPB/rospb_ws/build/servo_control/cmake_install.cmake")
 
 endif()
 
