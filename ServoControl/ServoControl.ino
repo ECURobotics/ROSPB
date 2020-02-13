@@ -43,6 +43,9 @@ Servo servo;
 
 void runPB(const geometry_msgs::Twist & keyMsg){
   servoIncrement = keyMsg.angular.z;
+  if(keyMsg.linear.x){
+   servoPosition = 90; 
+  }
   
   redLED = keyMsg.linear.y;
   yellowLED = keyMsg.linear.z;
